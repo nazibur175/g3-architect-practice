@@ -168,16 +168,22 @@ nav li {
   love & enjoyable feature
    -----------------------*/
 
+   .love-main-container{
+    display: flex;
+    align-items: center;
+    padding-left:150px;
+   }
 
 .love-and-enjoyable-feature {
   margin-top: 130px;
   display: flex;
+  
 }
 
 .feature-left-part-container {
-  margin-left: 230px;
   width: 586px;
   height: 982px;
+  
 }
 
 .feature-sub-section-items {
