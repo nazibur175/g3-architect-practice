@@ -44,9 +44,9 @@ nav li{
 
 
 
-/* -------------
-  banner styles
-----------------*/
+/* -------------------
+  header banner styles
+---------------------*/
 
 
 
@@ -79,14 +79,14 @@ nav li{
   text-align: center;
   display: inline-block;
 }
-.header-btn{
+.primary-btn{
     width: 180px;
     height: 64px;
     border-radius: 8px;
     background: #FF900E;
     color: #ffff;
     border:none;
-    margin: 30px;
+    margin-top: 30px ;
     text-align: center;
 }
 
@@ -98,11 +98,12 @@ nav li{
     
 } 
 
-/* ----------
-quick list section
-------------- */
+/* ----------------
+    feature section
+-------------------*/
 .section-1{
     display: flex;
+    align-items: center;
     padding: 71px ;
 }
 .text-primary-1{
@@ -119,4 +120,9 @@ quick list section
     grid-template-columns: repeat(2,1fr);
     gap: 24px;
 }
- 
+.feature-container{
+  margin-left: 73px;
+}
+.feature-title{
+  margin-bottom: 24px;
+}
