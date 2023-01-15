@@ -2,44 +2,49 @@
    font
 --------- */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Poppins:wght@500&family=Work+Sans:wght@400;500&display=swap');
-*{
-    margin: 0;
-    padding: 0;
-    font-family: 'Work Sans', sans-serif;
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Work Sans', sans-serif;
 }
 
 
 /* -------------------------
 header and navigation style
 -------------------------- */
-header{
+header {
   background: rgba(255, 144, 14, 0.1);
 }
 
-.header-container{
-   
-   padding: 30px;
-   text-align: center;
-   margin-left: 100px;
+.header-container {
+
+  padding: 30px;
+  text-align: center;
+  margin-left: 100px;
   margin-right: 100px;
 
 }
-.nav-title{
+
+.nav-title {
   /* margin-left: 230px; */
   /* margin-right: 240px; */
 
 }
-nav{
-    display: flex;
-    justify-content: space-between;
+
+nav {
+  display: flex;
+  justify-content: space-between;
 }
-nav ul{
-    display: flex;
-    gap: 26px;
-    align-items: center;
+
+nav ul {
+  display: flex;
+  gap: 26px;
+  align-items: center;
 }
-nav li{
-    list-style: none;
+
+nav li {
+  list-style: none;
 }
 
 
@@ -50,79 +55,208 @@ nav li{
 
 
 
-.banner{
+.banner {
 
-    text-align: center;
-    
+  text-align: center;
+
 }
 
-.banner-info{
-    text-align: center;
-    width: 862px;
-    height: 300px;
-    display: inline-block;
+.banner-info {
+  text-align: center;
+  width: 862px;
+  height: 300px;
+  display: inline-block;
 }
 
-.banner-title{
-    font-weight: 700;
-    font-size: 64px;
-    margin: 32px;
-    line-height: 75px;
-    text-align: center;
+.banner-title {
+  font-weight: 700;
+  font-size: 64px;
+  margin: 32px;
+  line-height: 75px;
+  text-align: center;
 }
 
-.banner-discription{
-    color: #727272;
-    margin: 32px;
+.banner-discription {
+  color: #727272;
+  margin: 32px;
 }
-.header-btn-container{
+
+.header-btn-container {
   text-align: center;
   display: inline-block;
 }
-.primary-btn{
-    width: 180px;
-    height: 64px;
-    border-radius: 8px;
-    background: #FF900E;
-    color: #ffff;
-    border:none;
-    margin-top: 30px ;
-    text-align: center;
+
+.primary-btn {
+  width: 180px;
+  height: 64px;
+  border-radius: 8px;
+  background: #FF900E;
+  color: #ffff;
+  border: none;
+  margin-top: 30px;
+  text-align: center;
 }
 
 .banner-img {
-    height: 700px;
-    width: 100%;
-    margin-top: 50px;
-    margin-bottom: 45px;
-    
-} 
+  height: 700px;
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 45px;
 
-/* ----------------
-    feature section
--------------------*/
-.section-1{
-    display: flex;
-    align-items: center;
-    padding: 71px ;
 }
-.text-primary-1{
-    color: #727272;
+
+/* -----------------------------
+  quick list of  feature section
+--------------------------------*/
+
+.section-1 {
+  display: flex;
+  align-items: center;
+  padding: 71px;
+  margin-left: 210px;
 }
-.text-primary-2{
-    color: #000;
-}
-.text-primary-3{
-    color: #FF900E;
-}
-.section-1 .images{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    gap: 24px;
-}
-.feature-container{
+
+.quick-list-feature-container {
   margin-left: 73px;
+  width: 537px;
+  height: 304px;
 }
-.feature-title{
+
+.quick-list-feature-title {
   margin-bottom: 24px;
+}
+
+.text-primary-1 {
+  color: #727272;
+  font-weight: 500;
+  font-size: 45px;
+  line-height: 53px;
+}
+
+.text-primary-2 {
+  color: #000;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 53px;
+}
+
+.text-primary-3 {
+  color: #FF900E;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 53px;
+
+}
+
+.text-primary-4 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #727272;
+
+}
+
+.section-1 .images {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+
+
+
+/* ---------------------
+  love & enjoyable feature
+   -----------------------*/
+
+
+.love-and-enjoyable-feature {
+  margin-top: 130px;
+  display: flex;
+}
+
+.feature-left-part-container {
+  margin-left: 230px;
+  width: 586px;
+  height: 982px;
+}
+
+.feature-sub-section-items {
+  padding: 30px 42px 30px 30px;
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.top-part {}
+
+.feature-left-part-title {
+  width: 468px;
+  height: 106px;
+  border-left: 5px solid #FF900E;
+  margin-bottom: 24px;
+
+}
+
+#feature-left-part-title {
+  padding-left: 21px;
+
+}
+
+.feature-sub-section-container {}
+
+.feature-sub-section-items {}
+
+.feature-sub-section-title {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+  color: #131313;
+  margin-bottom: 10px;
+}
+
+.feature-right-part-main-container {
+  width: 800px;
+  height: 1059px;
+  margin-left: 54px;
+  margin-right: 240px;
+}
+
+.feature-right-part-sub-container {
+  background-image: url("../images/architect.png");
+  background-repeat: no-repeat;
+  width: 708px;
+  height: 902px;
+  margin-left: 92px;
+  margin-bottom: 20px;
+
+}
+.feature-right-part-btn{
+  
+background: #FF900E;
+border-radius: 8px;
+border: none;
+width: 342px;
+height: 200px;
+position: relative;
+top: -60px;
+}
+
+.feature-right-part-btn div{
+  padding: 46px;
+}
+.feature-right-part-btn div h1{
+  font-weight: 700;
+font-size: 65px;
+line-height: 70px;
+text-align: center;
+color: #FFFFFF;
+
+}
+.feature-right-part-btn div h3{
+  font-weight: 500;
+font-size: 25px;
+line-height: 40px;
+text-align: center;
+color: #FFFFFF;
+
 }
